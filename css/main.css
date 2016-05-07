@@ -1,0 +1,59 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Helvetica,sans-serif;
+	background: #FFF;
+	-webkit-font-smoothing: antialiased;
+}
+
+.container {
+	padding: 100px 0;
+	text-align: center;	
+}
+
+img {
+	width: 100%;
+	height: auto;
+	-webkit-transition: 0.5s;
+    transition: 0.5s;
+	opacity: 1;	
+}
+
+img:hover {
+	opacity: .65;
+	cursor: pointer;	
+}
+
+.content_spacer {
+	padding: 20px 0;	
+}
+
+
+@media (max-width: 1200px) { 
+	img {
+		width: auto;	
+	}
+}
+
+@media (max-width: 992px) { 
+	img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) { 
+	img {
+		padding: 0 25px;
+	}
+}
+
+
+
+
+
+
+
+
+
